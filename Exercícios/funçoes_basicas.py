@@ -18,6 +18,9 @@ def alcular_gorjeta_por_pessoa(conta:float, porcentagem_gorjeta:float, pessoas:i
     gorjeta = conta* (porcentagem_gorjeta/100) / pessoas
     return gorjeta
 
+#Exercicio 5
+
+#Exercicio 6
 
 if __name__ =='__main__': 
 
