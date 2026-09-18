@@ -14,10 +14,10 @@ def verificar_maioridade(idade:int):
     else:
         return "menor_de_idade"
     
+def verificar_paridade(numero:int):
 
-    
 
-if __name__ =="__main__":
+    if __name__ =="__main__":
      teste = fizz_buzz(15)
      print (teste)
 
