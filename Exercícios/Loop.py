@@ -23,7 +23,31 @@ def contar_negativos(numeros):
     
 #exercicio 3
 
+def somar_maiores_que(numeros,limite):
+    contador = 0
+    for numero in numeros:
+    if numero <0:
+        contador += 1
+    return contador
+
+#exercicio 4
+
 def zerar_negativos(numeros):
+    aux = numeros 
+    for numero in numeros:
+    if numero < 0:
+        nova_lista.append(0)
+    else:
+        nova_lista.append(numero)
+    return nova_lista
+
+#exercicio 5 
+
+def contem_valor(lista, alvo):
+     
+
+
+
     
 
 
