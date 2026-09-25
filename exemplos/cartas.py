@@ -10,3 +10,4 @@ class carta:
         self. destinatario = destinatario
         self. conteudo = conteudo
         
+        
