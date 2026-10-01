@@ -20,7 +20,23 @@ def alcular_gorjeta_por_pessoa(conta:float, porcentagem_gorjeta:float, pessoas:i
 
 #Exercicio 5
 
+def resumo_circulo(raio):
+    pi = 3.14159
+    area = pi * (raio ** 2)
+    return f"Um circulo com raio {raio} tem uma area de {area: .2f}."
+
 #Exercicio 6
+
+def resumo_juros_compostos(capital:float,taxa:float):
+    montante_final = capital * ((1 + (taxa / 100)) ** anos)
+    return f"Apos {anos} anos, R$ {capital:.2f} cresce para R$ {montante_final:.2f}."
+
+#exercicio 7
+
+def metricas_cilindro(raio, altura):
+    pi = 3.14159
+    
+
 
 if __name__ =='__main__': 
 
